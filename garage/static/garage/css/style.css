@@ -1,0 +1,247 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: Poppins, sans-serif;
+}
+
+.navbar {
+	height: 80px;
+	padding: 20px;
+	opacity: 0.8;
+}
+
+.navbar img {
+	position: absolute;
+	margin-top: -40px;
+}
+
+.navbar-nav li {
+	padding-right: 20px;
+}
+
+.nav-link {
+	font-size: 1.1em !important;
+}
+
+.navbar .navbar-toggler {
+	background-color: gray;
+	color: white;
+}
+
+.carousel-inner .carousel-item {
+	height: 500px;
+}
+
+.carousel-caption {
+	top: 60%;
+	transform: translateY(-50%);
+}
+
+.jumbotron {
+	padding: 2rem;
+	border-radius: 0;
+}
+
+.about {
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 1rem;
+}
+
+#aboutpage hr {
+	border-top: 1.5px solid #646464;
+	width: 95%;
+	margin-top: 1rem;
+}
+
+.services {
+	margin-top: 2rem;
+}
+
+.services h2 {
+	color: #1be2a0;
+	font-size: 4em;
+}
+
+.services h3 {
+	color: #16b781;
+}
+
+#services hr {
+	border-top: 1.5px solid #646464;
+	width: 75%;
+	margin-top: 2rem;
+}
+
+.team {
+	margin-top: 2rem;
+}
+
+#team hr {
+	border-top: 1.5px solid #646464;
+	width: 75%;
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+}
+
+.reviews {
+	width: 75%;
+	margin: 0 auto;
+}
+
+#reviews hr {
+	border-top: 1.5px solid #646464;
+	width: 75%;
+	margin-top: 2rem;
+}
+
+#pin hr {
+	border-top: 1.5px solid #646464;
+	width: 75%;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+#contact {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.contact {
+	margin-top: 3rem;
+}
+
+#contact hr {
+	border-top: 1.5px solid #646464;
+	width: 75%;
+	margin-top: 1rem;
+}
+
+#contact p {
+	width: 75%;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.page-footer {
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+}
+
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+	.carousel-caption {
+		top: 60%;
+	}
+
+	.carousel-caption h2 {
+		font-size: 350%;
+	}
+
+	.carousel-caption h3 {
+		font-size: 150%;
+		font-weight: 400;
+	}
+}
+
+@media (max-width: 576px) {
+	.navbar .navbar-collapse {
+		background-color: #3f3f3f;
+		color: #a1d829;
+		margin-top: 1.2rem;
+	}
+
+	.navbar .navbar-collapse a {
+		color: #a1d829 !important;
+	}
+
+	.carousel-caption {
+		top: 60%;
+	}
+
+	.carousel-caption h2 {
+		font-size: 2.5rem;
+		font-weight: 300;
+		line-height: 1;
+	}
+
+	.carousel-caption h3 {
+		font-size: 1.2rem;
+	}
+
+	.jumbotron h3 {
+		font-size: 2.5rem;
+	}
+
+	.jumbotron p {
+		font-size: 1.2rem;
+	}
+
+	#aboutpage h2 {
+		font-size: 2.5rem;
+		padding: 0;
+	}
+
+	#aboutpage p {
+		font-size: 1.2rem;
+		line-height: 24px;
+	}
+
+	.services {
+		font-size: 2.5rem;
+		margin-top: 24px;
+		padding-bottom: 0;
+	}
+
+	#services h2 {
+		font-size: 3.0rem;
+		padding: 0;
+	}
+
+	#services h3 {
+		font-size: 1.5rem;
+		padding: 0;
+	}
+
+	#services p {
+		font-size: 1.2rem;
+		line-height: 24px;
+	}
+
+	#team h1 {
+		font-size: 2.5rem;
+		margin: 0;
+		padding: 0;
+	}
+
+	#reviews h2 {
+		font-size: 2.5rem;
+		margin: 0;
+		padding: 0;
+	}
+
+	#reviews p {
+		font-size: 1.2rem;
+		line-height: 24px;
+	}
+
+	#pin h2 {
+		font-size: 2.5rem;
+		margin: 0;
+		padding: 0;
+	}
+
+	#contact h2 {
+		font-size: 2.5rem;
+		margin: 0;
+		padding: 0;
+	}
+
+	#form {
+		margin-top: 2rem;
+	}
+}
